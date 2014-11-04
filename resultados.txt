@@ -1,0 +1,8 @@
+usando 2-grams: 
+Média de Similaridade: 0.604801370596
+usando 3-grams: 
+Média de Similaridade: 0.467845184136
+usando 4-grams: 
+Média de Similaridade: 0.344882023037
+usando 5-grams: 
+Média de Similaridade: 0.255081424994
