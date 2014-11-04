@@ -49,9 +49,9 @@ def mean_len():
         stl = re.split("\n|\.|\!|\?", st)
         stw = re.split("\n|\.|\!|\?| |,| - ", st)
         for el in stl:
-            b += len(el)
+            b += len(el)*(1.0)/len(stl)
         for el in stw:
-            c += len(el)
+            c += len(el)*(1.0)/len(stw)
         print(fid)
         print("Media Frases: "+ str(b))
         print("Media Palavras: "+ str(c))
